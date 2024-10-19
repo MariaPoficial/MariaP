@@ -1,0 +1,284 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+   
+}
+
+
+
+
+h1{
+    text-align: center;
+    color:#5cb4c8;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color:#5cb4c8;
+    margin-top: 50px;
+}
+
+header{
+    height: 300px;
+	width: 100%;
+	color: #EB0091;
+    background-image: url("header.jpg");
+    background-size: 1500px 1000px  ;
+}
+
+#headerindex{
+    height: 700px;
+	width: 100%;
+	text-align: center;
+	color: #EB0091;
+    background-image: url("header.jpg");
+    background-size: 1500px 1000px  ;
+}
+
+#logo1{
+    margin: 200px;
+    width:350px;
+    height: auto;
+}
+
+#logo2{
+    width: 100px;
+    height:auto;
+    margin:25px;
+}
+
+a:link {
+    color:white;
+    text-decoration: none;
+    }
+
+a:visited {
+color: white;
+text-decoration: none;
+}
+
+a:hover {
+color: #c2000c;
+text-decoration: underline;
+}
+
+p{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#text{
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    text-align: justify;
+}
+
+#nav{
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 100px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        justify-content: center;
+    
+}
+
+button {
+padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+	background-color: #5cb4c8;
+	color: black;
+}
+
+footer{
+    height: 150px;
+	width: 100%;
+    font-size: 50%;
+    color: black;
+    background-image: url("header.jpg");
+    background-size: 1500px 1000px  ;
+}
+
+#foot{
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+#motor{
+    background-color: lightblue;
+    height:80px;
+    width: 100%;
+}
+
+#redes{
+    width: 20px;
+    height: auto;
+}
+
+table {
+	margin: 0 auto;
+	margin-top: 20 px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.slideshow-container,
+.slideshow-container3,
+.slideshow-container4,
+.slideshow-container5,
+.slideshow-container6
+ {
+    position: relative;
+    height: 500px;
+    display: block;
+    margin-left: 300px;
+}
+
+.slideshow-container2{
+
+    position: relative;
+    height: 500px;
+    display: block;
+    margin-left: 270px;
+}
+
+
+
+
+.slides,
+.slides2,
+.slides3,
+.slides4,
+.slides5,
+.slides6 {
+    height: 100%;
+    width: auto;
+}
+
+.slide[data-active]{
+    display: block;
+}
+
+.slide,
+.slide fade,
+.slide fade2 ,
+.slide3 fade,
+.slide4 fade,
+.slide5 fade,
+.slide6 fade{
+    width: 100%;
+    height: 100%;
+
+    display: none;
+}
+
+.slide img,
+.slide2 img,
+.slide3 img,
+.slide4 img,
+.slide5 img,
+.slide6 img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.slide2 img{
+    margin-left: 20px;;
+}
+
+.previous-button,
+.next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    background: transparent;
+    border: 0;
+
+}
+
+.next-button{
+    right: 30.5%;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius:6px ;
+}
+
+.previous-button{
+    left:0;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius:6px ;
+}
+
+.previous-button:hover,
+.next-button:hover {
+    background-color: rgba(92,180,200,0.4) ;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.2s;
+  }
+  
+  @keyframes fade {
+    from {
+      opacity: 0.8;
+    }
+    
+    to {
+      opacity: 1;
+    }
+  }
+
+#baloon{
+    margin-left: 800px;
+    margin-top: 100px;
+    transition: 0.3s;
+}
+
+#baloon:hover{
+    cursor: pointer;
+}
+
+#contacto{
+    text-align: center;
+    text-decoration: none;
+    font-weight: normal;
+    
+
+}
+
+form{
+    margin: 50px;
+}
+
+
+pre{
+    margin-left:350px;
+}
+
+video {
+    margin-left: 60px;
+}
