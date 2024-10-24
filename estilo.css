@@ -50,6 +50,12 @@ header{
     margin:25px;
 }
 
+#logo3 {
+    width:100px;
+    height:auto;
+    margin:10px;
+}
+
 a:link {
     color:white;
     text-decoration: none;
@@ -111,6 +117,15 @@ footer{
     background-image: url("header.jpg");
     background-size: 1500px 1000px  ;
 }
+
+#fim { 
+    height: 250px;
+	width: 100%;
+    font-size: 50%;
+    color: black;
+    background-image: url("header.jpg");
+    background-size: 1500px 1000px  ;}
+
 
 #foot{
     text-align: center;
